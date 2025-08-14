@@ -46,7 +46,8 @@ const Faqs = () => {
     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
       <p className="mb-2 text-gray-500 dark:text-gray-400">
         Click the download button zipped file is download into the downloads folder extract the zipped file
-        find application named invoice-it.msi or setup incase .msi application is hard to find
+        you get get three folders open Setup folder and click on Invoice-it-setup it will start installing it may take some time be patient, then it will ask for license key which you will get in License Key file after successful installation by filing it the required details open the Fonts folder and double on the file named Roboto and
+        on top you see the install button, on it to install and logout and start the application again and you are good to go
       </p>
       <p className="text-gray-500 dark:text-gray-400">
         Click on it to install{" "}
