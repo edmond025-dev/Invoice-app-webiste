@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base : 'https://edmond025-dev.github.io/Invoice-app-webiste/',
+  base : 'https://github.com/edmond025-dev/Invoice-app-webiste/',
 })
