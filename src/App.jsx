@@ -34,19 +34,17 @@ function App() {
           organised
         </p>
         <div className="flex justify-center">
-           <a
-    href="https://github.com/edmond025-dev/invoice-it-downloads/releases/download/v1.0.0.0/Invoice-it.zip"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center bg-[#2D3142] text-white px-4 py-3 rounded-[5px] space-x-3 mt-6 mx-auto"
-  >
-    <span className="mr-3">Download it for free</span>
-    <img
-      src="assets/windows-icon.png"
-      alt="Windows Icon"
-      className="h-5 w-5"
-    />
-  </a>
+          <a
+            href="/download.html"
+            className="flex items-center bg-[#2D3142] text-white px-4 py-3 rounded-[5px] space-x-3 mt-6 mx-auto"
+          >
+            <span className="mr-3">Download it for free</span>
+            <img
+              src="assets/windows-icon.png"
+              alt="Windows Icon"
+              className="h-5 w-5"
+            />
+          </a>
         </div>
 
         <p className="mt-8 text-pretty font-inter text-lg-custom font-medium text-gray-500 sm:text-xl/8">
@@ -55,74 +53,77 @@ function App() {
       </div>
       {/* hero div here */}
 
- {/* product image div here */}
+      {/* product image div here */}
       <img
         src="assets/product-image.png"
         alt="Product"
         className="w-full h-[650px] mt-1 object-cover"
       />
- {/* product image div here */}
+      {/* product image div here */}
 
+      {/* faqs accordion div here */}
+      <div
+        id="faqs"
+        className="inline-block px-10 py-2 rounded-md text-lg mt-20 mb-16"
+        style={{
+          backgroundColor: "#d1d4e0",
+          color: "#292d3d",
+        }}
+      >
+        FAQs
+      </div>
+      <Faqs />
 
- {/* faqs accordion div here */}
-    <div id="faqs" 
-      className="inline-block px-10 py-2 rounded-md text-lg mt-20 mb-16"
-      style={{ 
-        backgroundColor: '#d1d4e0',
-        color: '#292d3d'
-      }}
-    >
-      FAQs
-    </div>
-<Faqs/>
+      {/* faqs accordion div here */}
 
-     {/* faqs accordion div here */}
+      <div
+        id="pricing"
+        className="inline-block px-10 py-2 rounded-md text-lg mt-20 mb-16"
+        style={{
+          backgroundColor: "#d1d4e0",
+          color: "#292d3d",
+        }}
+      >
+        PRICING
+      </div>
 
-       <div id="pricing"
-      className="inline-block px-10 py-2 rounded-md text-lg mt-20 mb-16"
-      style={{ 
-        backgroundColor: '#d1d4e0',
-        color: '#292d3d'
-      }}
-    >
-      PRICING
-    </div>
+      <div className="text-center">
+        <h1 className="text-balance text-5xl font-stix font-regular tracking-tight leading-[1] text-gray-900 sm:text-5xl">
+          Free as it is
+        </h1>
+      </div>
+      <p className="mt-4 text-pretty font-inter text-md-custom font-medium text-gray-500 sm:text-xl/8">
+        You are allowed to contact for any additional changes
+      </p>
 
-<div className="text-center">
-          <h1 className="text-balance text-5xl font-stix font-regular tracking-tight leading-[1] text-gray-900 sm:text-5xl">
-            Free as it is
-          </h1>
-        </div>
-        <p className="mt-4 text-pretty font-inter text-md-custom font-medium text-gray-500 sm:text-xl/8">
-         You are allowed to contact for any additional changes
-        </p>
+      <div
+        id="contact"
+        className="inline-block px-10 py-2 rounded-md text-lg mt-20 mb-16"
+        style={{
+          backgroundColor: "#d1d4e0",
+          color: "#292d3d",
+        }}
+      >
+        CONTACT US
+      </div>
 
-              <div id="contact"
-      className="inline-block px-10 py-2 rounded-md text-lg mt-20 mb-16"
-      style={{ 
-        backgroundColor: '#d1d4e0',
-        color: '#292d3d'
-      }}
-    >
-      CONTACT US
-    </div>
-
-<div className="text-center">
-          <h1 className="text-balance text-5xl font-stix font-regular tracking-tight leading-[1] text-gray-900 sm:text-5xl">
-            For more jobs like
-this <br/>
-feel free to contact us<br/>
-on
-          </h1>
-        </div>
-         <p className="mt-4 mb-8 text-pretty font-inter text-md-custom font-medium text-gray-500 sm:text-xl/8">
-         Email : passionrun2021@gmail.com<br/>
-           Whatsapp : +254725018807
-        </p>
+      <div className="text-center">
+        <h1 className="text-balance text-5xl font-stix font-regular tracking-tight leading-[1] text-gray-900 sm:text-5xl">
+          For more jobs like this <br />
+          feel free to contact us
+          <br />
+          on
+        </h1>
+      </div>
+      <p className="mt-4 mb-8 text-pretty font-inter text-md-custom font-medium text-gray-500 sm:text-xl/8">
+        Email : passionrun2021@gmail.com
+        <br />
+        Whatsapp : +254725018807
+      </p>
 
       {/* home div ends here */}
 
-      <BackToTop/>
+      <BackToTop />
     </div>
   );
 }
