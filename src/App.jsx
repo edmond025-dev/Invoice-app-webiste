@@ -34,14 +34,18 @@ function App() {
           organised
         </p>
         <div className="flex justify-center">
-          <button className="flex items-center bg-[#2D3142] text-white px-4 py-3 rounded-[5px] space-x-3 mt-6 mx-auto">
-            <span className="mr-3">Download it for free</span>
-            <img
-              src="assets/windows-icon.png"
-              alt="Windows Icon"
-              className="h-5 w-5"
-            />
-          </button>
+           <a
+    href="https://github.com/edmond025-dev/invoice-it-downloads/releases/tag/v1.0.0.0/Invoice-it.zip "
+    download
+    className="flex items-center bg-[#2D3142] text-white px-4 py-3 rounded-[5px] space-x-3 mt-6 mx-auto"
+  >
+    <span className="mr-3">Download it for free</span>
+    <img
+      src="assets/windows-icon.png"
+      alt="Windows Icon"
+      className="h-5 w-5"
+    />
+  </a>
         </div>
 
         <p className="mt-8 text-pretty font-inter text-lg-custom font-medium text-gray-500 sm:text-xl/8">
