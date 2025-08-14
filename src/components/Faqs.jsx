@@ -46,7 +46,7 @@ const Faqs = () => {
     <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
       <p className="mb-2 text-gray-500 dark:text-gray-400">
         Click the download button zipped file is download into the downloads folder extract the zipped file
-        find application named invoice-it.msi or invoice-it.exe incase .msi application is hard to find
+        find application named invoice-it.msi or setup incase .msi application is hard to find
       </p>
       <p className="text-gray-500 dark:text-gray-400">
         Click on it to install{" "}
