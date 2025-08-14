@@ -35,7 +35,7 @@ function App() {
         </p>
         <div className="flex justify-center">
           <a
-            href="/download.html"
+            href={`${import.meta.env.BASE_URL}download.html`}
             className="flex items-center bg-[#2D3142] text-white px-4 py-3 rounded-[5px] space-x-3 mt-6 mx-auto"
           >
             <span className="mr-3">Download it for free</span>
