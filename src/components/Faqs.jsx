@@ -268,6 +268,50 @@ const Faqs = () => {
     </div>
   </div>
 
+  <h2 id="accordion-collapse-heading-7">
+    <button
+      type="button"
+      className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+      data-accordion-target="#accordion-collapse-body-7"
+      aria-expanded="false"
+      aria-controls="accordion-collapse-body-7"
+    >
+      <span>How to update invoice-it</span>
+      <svg
+        data-accordion-icon=""
+        className="w-3 h-3 rotate-180 shrink-0"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 10 6"
+      >
+        <path
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 5 5 1 1 5"
+        />
+      </svg>
+    </button>
+  </h2>
+  
+    <div
+    id="accordion-collapse-body-7"
+    className="hidden"
+    aria-labelledby="accordion-collapse-heading-7"
+  >
+    <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+      <p className="mb-2 text-gray-500 dark:text-gray-400">
+        To update you need to remove the existing invoice-it product via the add remove programs the application will prompt you that there is another product in existence and asks you to uninstall it
+        do that before you proceed to re-install.
+      </p>
+      <p className="text-gray-500 dark:text-gray-400">
+        Once the first installation the database data will not be affected. So no data will change.
+      </p>
+    </div>
+  </div>
+
 </div>
 
 </div>

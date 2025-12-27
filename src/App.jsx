@@ -116,7 +116,7 @@ function App() {
 
       <div className="text-center">
         <h1 className="text-balance text-5xl font-stix font-regular tracking-tight leading-[1] text-gray-900 sm:text-5xl">
-          For more jobs like this <br />
+          For more jobs like this and support <br />
           feel free to contact us
           <br />
           on
